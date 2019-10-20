@@ -1,0 +1,133 @@
+/**
+ * @version   1.2 April 26, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Core Styles */
+.rt-image {padding: 5px;margin-bottom: 15px;background: url(../images/typography/img-bg.png) repeat;}
+
+/* Bullet Styles */
+ul.bullet-1, ul.bullet-2, ul.bullet-3, ul.bullet-4, ul.bullet-5, ul.bullet-6, ul.bullet-7, ul.bullet-8, ul.bullet-9 {padding: 0 0 0 5px; margin: 0 0 15px;}
+ul.bullet-1 li, ul.bullet-2 li, ul.bullet-3 li, ul.bullet-4 li, ul.bullet-5 li, ul.bullet-6 li, ul.bullet-7 li, ul.bullet-8 li, ul.bullet-9 li {list-style: none;padding: 0 0 0 15px;margin: 0 0 3px;background-repeat: no-repeat;background-position: 0 5px;}
+ul.bullet-1 li a, ul.bullet-2 li a, ul.bullet-3 li a, ul.bullet-4 li a, ul.bullet-5 li a, ul.bullet-6 li a, ul.bullet-7 li a, ul.bullet-8 li a, ul.bullet-9 li a {font-size: 100%;line-height: 1.7;}
+ul.bullet-1 li {background-image: url(../images/typography/bullet1.png);}
+ul.bullet-2 li {background-image: url(../images/typography/bullet2.png);}
+ul.bullet-3 li {background-image: url(../images/typography/bullet3.png);}
+ul.bullet-4 li {background-image: url(../images/typography/bullet4.png);}
+ul.bullet-5 li {background-image: url(../images/typography/bullet5.png);}
+ul.bullet-6 li {background-image: url(../images/typography/bullet6.png);}
+ul.bullet-7 li {background-image: url(../images/typography/bullet7.png);}
+ul.bullet-8 li {background-image: url(../images/typography/bullet8.png);}
+ul.bullet-9 li {background-image: url(../images/typography/bullet9.png);}
+
+/* Emphasis Styles*/
+em.color {font-style: italic;font-weight: bold;}
+em.bold {font-size: 120%;font-weight: bold;line-height: 135%;font-style: normal;}
+em.bold2 {font-size: 135%;font-weight: bold;line-height: 120%;font-style: normal;}
+
+/* Breadcrumbs */
+#breadcrumbs-home {background:url(../images/typography/breadcrumb-icon.png) no-repeat;}
+
+/* Drop Cap */
+p.dropcap {overflow: hidden;}
+span.dropcap {font-size: 400%;margin: 0 5px 0 0;line-height: 100%;float: left;display: block;}
+
+/* Notice Styles */
+pre {font-style:italic;overflow: auto;padding: 10px;margin-bottom: 15px;background: #F9F1ED;border: 1px solid #DCD7D4;color: #AC3400;}
+.alert, .approved, .attention, .camera, .cart, .doc, .download, .media, .note, .notice, .quote {display: block;margin: 15px 0;background-repeat: repeat-x;background-position: 0 100%;}
+.typo-icon {display: block;padding: 8px 10px 0px 36px;margin: 15px 0;background: no-repeat 10px 12px;}
+.approved .typo-icon {background-image: url(../images/typography/approved-icon.png);}
+.alert .typo-icon {background-image: url(../images/typography/alert-icon.png);}
+.attention .typo-icon {background-image: url(../images/typography/attention-icon.png);}
+.camera .typo-icon {background-image: url(../images/typography/camera-icon.png);}
+.cart .typo-icon {background-image: url(../images/typography/cart-icon.png);}
+.doc .typo-icon {background-image: url(../images/typography/doc-icon.png);}
+.download .typo-icon {background-image: url(../images/typography/download-icon.png);}
+.media .typo-icon {background-image: url(../images/typography/media-icon.png);}
+.note .typo-icon {background-image: url(../images/typography/note-icon.png);}
+.notice .typo-icon {background-image: url(../images/typography/notice-icon.png);}
+.alert {color: #D0583F;background-image: url(../images/typography/alert.png);background-color: #FFFBFB;border-bottom: 1px solid #F8C9BB;border-right: 1px solid #F8C9BB;}
+.approved {color: #6CB656;background-image: url(../images/typography/approved.png);background-color: #FAFDF9;border-bottom: 1px solid #C1CEC1;border-right: 1px solid #C1CEC1;}
+.attention {color: #E1B42F;background-image: url(../images/typography/attention.png);background-color: #FFFDF6;border-bottom: 1px solid #E4E4D5;border-right: 1px solid #E4E4D5;}
+.camera {color: #55A0B4;background-image: url(../images/typography/camera.png);background-color: #F6FBFB;border-bottom: 1px solid #C9D5D8;border-right: 1px solid #C9D5D8;}
+.cart {color: #559726;background-image: url(../images/typography/cart.png);background-color: #FCFCFC;border-bottom: 1px solid #D3D3D3;border-right: 1px solid #D3D3D3;}
+.doc {color: #666666;background-image: url(../images/typography/doc.png);background-color: #FFFFFF;border-bottom: 1px solid #E5E5E5;border-right: 1px solid #E5E5E5;}
+.download {color: #666666;background-image: url(../images/typography/download.png);background-color: #FCFCFC;border-bottom: 1px solid #D3D3D3;border-right: 1px solid #D3D3D3;}
+.media {color: #8D79A9;background-image: url(../images/typography/media.png);background-color: #FBF9FD;border-bottom: 1px solid #DBE1E6;border-right: 1px solid #DBE1E6;}
+.note {color: #B76F38;background-image: url(../images/typography/note.png);background-color: #FFFAF6;border-bottom: 1px solid #E6DAD2;border-right: 1px solid #E6DAD2;}
+.notice {color: #6187B3;background-image: url(../images/typography/notice.png);background-color: #FAFCFD;border-bottom: 1px solid #C7CDDA;border-right: 1px solid #C7CDDA;}
+.quote {color: #727272;background-image: url(../images/typography/quote.png);background-color: #F3F3F3;border-bottom: 1px solid #D4D4D4;border-right: 1px solid #D4D4D4;}
+.quote-l {display: block;padding: 8px 10px 0px 36px;margin: 15px 0;}
+.quote-r {display: block;padding: 0 10px 0 0;}
+.quote-l {background: url(../images/typography/quote-l.png) no-repeat 10px 12px;}
+.quote-r {background: url(../images/typography/quote-r.png) no-repeat 100% 100%;}
+
+/* 32px list styles */
+ul.bullet-education li {background: url(../../../icons/icon-education_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-award li {background: url(../../../icons/icon-star_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-membership li {background: url(../../../icons/icon-membership_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-scales li {background: url(../../../icons/icon-scales_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-gavel li {background: url(../../../icons/icon-gavel_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-checklist li {background: url(../../../icons/checklist_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-books2 li {background: url(../../../icons/books2_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-notebook li {background: url(../../../icons/notebook_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-book li {background: url(../../../icons/icon-book_32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-archive li {background: url(../../../icons/archive-icon-32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-clipboard li {background: url(../../../icons/clipboard-icon-32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-lightbulb li {background: url(../../../icons/light-bulb-icon-32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+ul.bullet-hourglass li {background: url(../../../icons/sand-glass-icon-32px.png) 0 4px no-repeat; list-style: none; padding-left: 40px;}
+
+/* Standard List Styles */
+ul.checkmark, ul.circle-checkmark, ul.square-checkmark, ul.circle-small, ul.circle, ul.circle-large, ul.triangle-small, ul.triangle, ul.triangle-large {margin: 0 0 25px 0;padding: 0;}
+ul.checkmark li, ul.circle-checkmark li, ul.square-checkmark li, ul.circle-small li, ul.circle li, ul.circle-large li, ul.triangle-small li, ul.triangle li, ul.triangle-large li {list-style-type: none;padding: 0 0 0 30px;position: relative;font-size: 120%;margin-bottom: 8px;}
+ul.checkmark li a, ul.circle-checkmark li a, ul.square-checkmark li a, ul.circle-small li a, ul.circle li a, ul.circle-large li a, ul.triangle-small li a, ul.triangle li a, ul.triangle-large li {font-size: 100%;line-height: 1.7em;}
+ul.checkmark li:after {content:"";display:block;width: 4px;height: 8px;border-color: #fff;border-style: solid;border-width: 0 3px 3px 0;position:absolute;left: 14px;top: 3px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);}
+ul.circle-checkmark li:before {content:"";display: block;border-color: #fff;border-style: solid;border-width: 9px;border-radius: 9px;-moz-border-radius: 9px;height: 0;width: 0;position: absolute;left: 7px;top: 1px;}
+ul.circle-checkmark li:after {content:"";display:block;width: 3px;height: 6px;border-color: #000;border-width: 0 2px 2px 0;border-style: solid;position:absolute;left: 14px;top: 5px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);}
+ul.square-checkmark li:before {content:"";display: block;border-color: #fff;border-width: 7px;border-style: solid;height: 0;width: 0;position: absolute;left: 9px;top: 3px;}
+ul.square-checkmark li:after {content:"";display:block;width: 3px;height: 6px;border-color: #000;border-width: 0 2px 2px 0;border-style: solid;position:absolute;left: 14px;top: 9px;margin-top: -4px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);}
+ul.triangle-small li:after {content:"";display:block;width: 0;height: 0;border-color: transparent transparent transparent #fff;border-style: solid;border-width: 3px;position:absolute;left: 18px;top: 7px;}
+ul.triangle li:after {content:"";display:block;width: 0;height: 0;border-color: transparent transparent transparent #fff;border-style: solid;border-width: 4px;position:absolute;left: 17px;top: 6px;}
+ul.triangle.green li:after {border-color: transparent transparent transparent #74924A;}
+ul.triangle.yellow li:after {border-color: transparent transparent transparent #D69839;}
+ul.triangle.red li:after {border-color: transparent transparent transparent #BD5151;}
+ul.triangle.blue li:after {border-color: transparent transparent transparent #488AAD;}
+ul.triangle.white li:after {border-color: transparent transparent transparent #fff;}
+ul.triangle.black li:after {border-color: transparent transparent transparent #000;}
+ul.triangle-large li:after {content:"";display:block;width: 0;height: 0;border-color: transparent transparent transparent #fff;border-style: solid;border-width: 6px;position:absolute;left: 15px;top: 4px;}
+ul.circle-small li:after {content:"";display:block;width: 0;height: 0;border-color: #fff;border-style: solid;border-width: 2px;border-radius: 2px;-moz-border-radius: 2px;position:absolute;left: 16px;top: 8px;}
+ul.circle li:after {content:"";display:block;width: 0;height: 0;border-color: #fff;border-style: solid;border-width: 3px;border-radius: 3px;-moz-border-radius: 3px;position:absolute;left: 15px;top: 7px;}
+ul.circle-large li:after {content:"";display:block;width: 0;height: 0;border-color: #fff;border-style: solid;border-width: 5px;border-radius: 5px;-moz-border-radius: 5px;position:absolute;left: 12px;top: 5px;}
+ul.circle.green li:after, ul.checkmark.green li:after {border-color: #74924A;}
+ul.circle.yellow li:after, ul.checkmark.yellow li:after {border-color: #D69839;}
+ul.circle.red li:after, ul.checkmark.red li:after {border-color: #BD5151;}
+ul.circle.blue li:after, ul.checkmark.blue li:after {border-color: #488AAD;}
+ul.circle.white li:after, ul.checkmark.white li:after {border-color: #fff;}
+ul.circle.black li:after, ul.checkmark.black li:after {border-color: #000;}
+
+
+/* Inset Styles */
+span.inset-left {float: left;margin-right: 20px;margin-bottom:20px;}
+span.inset-right {float: right;margin-left: 20px;margin-bottom:20px;}
+span.inset-right-title, span.inset-left-title {position: absolute;display: block;top: -12px;left: 10px;padding: 3px 8px;font-size: 100%;font-weight: bold;}
+span.inset-left, span.inset-right {display: block;padding: 12px 8px 8px 8px;width: 20%;font-size: 100%;font-style: italic;margin-top: 25px;position: relative;text-align: center;}
+
+/* Lead Counsel Tooltip Style */
+#lc-tooltip {position:absolute;display:none;z-index:999;background:transparent url(http://static2.lawinfo.com/images/lc/lc_popup2.png) no-repeat;font-size:12px;height:106px;width:188px;padding:20px 25px;color:#fff}
+#lc-tooltip.bottom {background-image:url(http://static2.lawinfo.com/images/lc/lc_popup2b.png);padding-top:40px}
+#lc-tooltip h3 {color:#fff;font-size:13px;margin:4px 0 5px!important;padding:0}
+#lc-tooltip ul {margin:0px;padding:0px 0px 0px 20px}
+#lc-tooltip li {background:none !important;list-style:disc;padding-left:0px !important;line-height:1.4em!important}
+#lc-tooltip a.more {color:#fff;float:right;font-size:11px;font-weight:normal;text-decoration:underline}
+#lc-tooltip h3.es {font-size:12px;margin:0}
+#lc-tooltip ul.es {font-size:11px}
+#lcRated .lc-rated-link {height:77px;width:85px;padding:0;color:white;font-weight:bold;text-decoration:none;display:block;}
+
+/* FAQ Style */
+ul.faq li {list-style:none;}
+li.question {cursor:pointer;}
+li.question.closed::before {content:"";border-width:5px;border-style:solid;border-color:#000 transparent transparent transparent;position:relative;top:11px;right:4px;}
+li.question.opened::before {content:"";border-width:5px;border-style:solid;border-color:transparent transparent #000 transparent;position:relative;top:-12px;right:4px;}
+li.answer {padding:12px 0;color:#558844;display:none;}
+.faq span {font-weight:bold;}

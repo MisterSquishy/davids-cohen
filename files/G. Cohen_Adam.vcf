@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+FN: Adam G. Cohen 
+N:Adam G. Cohen
+ORG:Davids & Cohen, P.C.
+URL;HOME:www.davids-cohen.com
+URL;WORK:www.davids-cohen.com
+ADR:;;40 Washington Street, Suite 20;Wellesley;MA ;2481
+TEL;WORK;PREF:(781) 416-5055 (Office)
+TEL;WORK;TYPE=fax:(781) 416-4344 (Fax)
+EMAIL:acohen@davids-cohen.com
+PHOTO;TYPE=JPEG;ENCODING=BASE64:
+
+REV:20140930T225709Z
+END:VCARD
